@@ -11,7 +11,7 @@
   <modules>
     <module>rest-adapter</module>
     <module>core</module>
-    <module>jacoco-reports</module>
+<!--    <module>jacoco-reports</module>-->
   </modules>
 
   <properties>
