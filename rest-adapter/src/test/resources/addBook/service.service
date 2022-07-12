@@ -1,0 +1,41 @@
+Service service as addBooks method POST  {
+  Url -> @Config("endpoint")
+  Path -> ${"/books"}
+  Timeout -> ${@Config("timeout")}
+  @Header accept -> ${"application/json"}
+  @Header "user_channel" -> ${requestContext.headers.user_channel}
+  @Body -> ${requestContext.arguments.newBook}
+}
+
+Service service as addBooksWithBody method POST {
+  Url -> @Config("endpoint")
+  Path -> ${"/books"}
+  Timeout -> ${@Config("timeout")}
+  @Header accept -> ${"application/json"}
+  @Header "user_channel" -> ${requestContext.headers.user_channel}
+  @Body newBook -> ${requestContext.arguments.newBook}
+  @Body newBookId -> ${requestContext.arguments.newBook.id}
+  @Body chapters -> ${requestContext.arguments.newBook.chapters}
+  @Body price -> ${requestContext.arguments.newBook.price}
+  @Body isPublished -> ${requestContext.arguments.newBook.isPublished}
+  @Body isHardPrint -> ${requestContext.arguments.newBook.isHardPrint}
+  @Body author -> ${requestContext.arguments.newBook.author1}
+}
+
+Service service as addBooksNoKeyBody method POST {
+  Url -> @Config("endpoint")
+  Path -> ${"/custombody/nokey/books"}
+  Timeout -> ${@Config("timeout")}
+  @Header accept -> ${"application/json"}
+  @Header "user_channel" -> ${requestContext.headers.user_channel}
+  @Body -> ${requestContext.arguments.newBook}
+}
+
+Service service as addBooksPUT method PUT {
+  Url -> @Config("endpoint")
+  Path -> ${"/books"}
+  Timeout -> ${@Config("timeout")}
+  @Header accept -> ${"application/json"}
+  @Header "user_channel" -> ${requestContext.headers.user_channel}
+  @Body -> ${requestContext.arguments.newBook}
+}
