@@ -37,5 +37,5 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: rest-adapter/target/site/jacoco
           fail_ci_if_error: true
-          name: codecov-umbrella
+          name: codecov-adapters
           verbose: true
