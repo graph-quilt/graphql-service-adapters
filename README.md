@@ -1,11 +1,12 @@
 <div align="center">
 
-  ![graphql-adapter](./graphql_service_adapters.png)
+  ![graphql-service-adapter](./graphql_service_adapters.png)
 
 </div>
 
-**Continuous Integration:** [Builds](https://circleci.com/gh/intuit/graphql-service-adapters) <br/>
-**License:** [![Apache 2](http://img.shields.io/badge/license-Apache%202-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0) <br/>
+[![ Master Build and Publish](https://github.com/intuit/graphql-service-adapters/actions/workflows/master.yml/badge.svg?branch=master&event=push)](https://github.com/intuit/graphql-service-adapters/actions/workflows/master.yml)
+[![codecov](https://codecov.io/gh/intuit/graphql-service-adapters/branch/master/graph/badge.svg?token=G392PV1BAI)](https://codecov.io/gh/intuit/graphql-service-adapters) 
+[![Apache 2](http://img.shields.io/badge/license-Apache%202-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0) <br/>
 
 
 ### Overview
