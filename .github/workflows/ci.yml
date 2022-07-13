@@ -35,7 +35,7 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          directory: rest-adapter/target/site/jacoco
+          directory: jacoco-reports/target/site/jacoco-aggregate
           fail_ci_if_error: true
           name: codecov-adapters
           verbose: true
