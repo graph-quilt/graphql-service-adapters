@@ -9,6 +9,7 @@
 [![Apache 2](http://img.shields.io/badge/license-Apache%202-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0) <br/>
 
 
+
 ### Overview
 This library provides adapters as an abstraction layer that enables any Graphql service to consume data from various downstream services (like REST, gRPC, etc) in 
 pure GraphQL format.  
