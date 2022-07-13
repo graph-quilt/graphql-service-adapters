@@ -13,6 +13,6 @@ jobs:
         with:
           artifact: test-results
           name: junit test report
-          path: "rest-adapter/**/*.xml"
+          path: 'rest-adapter/target/surefire-reports/*.xml'
           reporter: java-junit
           fail-on-error: true
