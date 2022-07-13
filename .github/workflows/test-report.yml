@@ -13,6 +13,6 @@ jobs:
         with:
           artifact: test-results
           name: junit test report
-          path: "rest-adapter/**/*.xml,core/**/*.xml"
+          path: "rest-adapter/**/*.xml"
           reporter: java-junit
           fail-on-error: true
