@@ -4,8 +4,8 @@
 
 </div>
 
-[![ Master Build and Publish](https://github.com/intuit/graphql-service-adapters/actions/workflows/master.yml/badge.svg?branch=master&event=push)](https://github.com/intuit/graphql-service-adapters/actions/workflows/master.yml)
-[![codecov](https://codecov.io/gh/intuit/graphql-service-adapters/branch/master/graph/badge.svg?token=G392PV1BAI)](https://codecov.io/gh/intuit/graphql-service-adapters) 
+[![ Master Build and Publish](https://github.com/graph-quilt/graphql-service-adapters/actions/workflows/master.yml/badge.svg?branch=master&event=push)](https://github.com/graph-quilt/graphql-service-adapters/actions/workflows/master.yml)
+[![codecov](https://codecov.io/gh/graph-quilt/graphql-service-adapters/branch/master/graph/badge.svg?token=G392PV1BAI)](https://codecov.io/gh/graph-quilt/graphql-service-adapters) 
 [![Apache 2](http://img.shields.io/badge/license-Apache%202-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0) <br/>
 
 
