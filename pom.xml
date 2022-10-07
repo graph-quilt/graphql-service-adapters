@@ -7,6 +7,24 @@
   <artifactId>graphql-service-adapters</artifactId>
   <packaging>pom</packaging>
   <version>2.0.2-SNAPSHOT</version>
+  <description>Components for translating GraphQL Requests to other protocol such as REST, gRPC</description>
+  <url>https://github.com/intuit/graphql-orchestrator-java</url>
+
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Ashpak Shaikh</name>
+      <id>Shaikh</id>
+      <organization>Intuit, Inc.</organization>
+      <organizationUrl>http://www.intuit.com</organizationUrl>
+    </developer>
+  </developers>
 
   <modules>
     <module>rest-adapter</module>
