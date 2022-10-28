@@ -40,3 +40,5 @@ lastEiamLogin.txt
 .settings
 .project
 
+# .env file storing the local GH token
+.env
