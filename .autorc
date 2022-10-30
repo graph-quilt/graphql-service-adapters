@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "maven"
+  ],
+  "repo": "https://github.com/graph-quilt/graphql-service-adapters",
+  "onlyPublishWithReleaseLabel": true,
+  "email": "graphquilt@gmail.com"
+}
