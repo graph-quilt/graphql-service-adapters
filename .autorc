@@ -4,7 +4,7 @@
     {
       "mavenCommand": "mvn",
       "mavenOptions": ["-DinteractiveMode=false", "-DskipTests"],
-      "mavenReleaseGoals": ["release:prepare", "release:perform"],
+      "mavenReleaseGoals": ["release:perform"],
     }]
   ],
   "repo": "https://github.com/graph-quilt/graphql-service-adapters",
