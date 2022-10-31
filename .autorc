@@ -3,6 +3,6 @@
     "maven"
   ],
   "repo": "https://github.com/graph-quilt/graphql-service-adapters",
-  "onlyPublishWithReleaseLabel": true,
+  "onlyPublishWithReleaseLabel": false,
   "email": "graphquilt@gmail.com"
 }
