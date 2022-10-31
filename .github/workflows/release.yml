@@ -20,7 +20,7 @@ jobs:
       - uses: auto-it/setup-auto@v1
 
       - name: Release
-        run: auto shipit
+        run: auto shipit -v
 
       - name: Set up Maven Central Repository
         uses: actions/setup-java@v1
