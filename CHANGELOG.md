@@ -1,3 +1,24 @@
+# v2.0.3 (Thu Nov 03 2022)
+
+#### 🐛 Bug Fix
+
+- Update release.yml [#17](https://github.com/graph-quilt/graphql-service-adapters/pull/17) ([@bhavinshah7](https://github.com/bhavinshah7))
+- Update .autorc [#16](https://github.com/graph-quilt/graphql-service-adapters/pull/16) ([@bhavinshah7](https://github.com/bhavinshah7))
+- Update .autorc [#15](https://github.com/graph-quilt/graphql-service-adapters/pull/15) ([@bhavinshah7](https://github.com/bhavinshah7))
+- update maven plugin configuration [#14](https://github.com/graph-quilt/graphql-service-adapters/pull/14) ([@bhavinshah7](https://github.com/bhavinshah7))
+- Maven versions plugin [#13](https://github.com/graph-quilt/graphql-service-adapters/pull/13) ([@bhavinshah7](https://github.com/bhavinshah7))
+- disable onlyPublishWithReleaseLabel [#12](https://github.com/graph-quilt/graphql-service-adapters/pull/12) ([@bhavinshah7](https://github.com/bhavinshah7))
+- auto integration changes [#11](https://github.com/graph-quilt/graphql-service-adapters/pull/11) ([@jainrocks](https://github.com/jainrocks))
+- [maven-release-plugin] prepare for next development iteration [#11](https://github.com/graph-quilt/graphql-service-adapters/pull/11) ([@actions-user](https://github.com/actions-user))
+
+#### Authors: 3
+
+- [@actions-user](https://github.com/actions-user)
+- Bhavin Shah ([@bhavinshah7](https://github.com/bhavinshah7))
+- nitish jain ([@jainrocks](https://github.com/jainrocks))
+
+---
+
 # v2.0.3 (Sun Oct 30 2022)
 
 #### 🐛 Bug Fix
