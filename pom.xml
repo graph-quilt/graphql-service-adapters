@@ -6,7 +6,7 @@
   <groupId>com.intuit.graphql.adapter</groupId>
   <artifactId>graphql-service-adapters</artifactId>
   <packaging>pom</packaging>
-  <version>2.0.3-SNAPSHOT</version>
+  <version>2.0.3</version>
   <description>Components for translating GraphQL Requests to other protocol such as REST, gRPC</description>
   <url>https://github.com/intuit/graphql-orchestrator-java</url>
 
