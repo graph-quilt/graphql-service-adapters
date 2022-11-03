@@ -17,11 +17,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.REPO_GIT_TOKEN }}
 
-      - uses: auto-it/setup-auto@v1
-
-      - name: Release
-        run: auto shipit -v
-
       - name: Set up Maven Central Repository
         uses: actions/setup-java@v1
         with:
@@ -30,7 +25,7 @@ jobs:
           server-username: MAVEN_USERNAME
           server-password: MAVEN_PASSWORD
           gpg-private-key: ${{ secrets.MAVEN_GPG_PRIVATE_KEY }}
-          gpg-passphrase: MAVEN_GPG_PASSPHRASE
+          gpg-passphrase: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
 
       - name: Configure Git User
         run: |
@@ -45,3 +40,11 @@ jobs:
       #     MAVEN_USERNAME: ${{ secrets.OSS_SONATYPE_USERNAME }}
       #     MAVEN_PASSWORD: ${{ secrets.OSS_SONATYPE_PASSWORD }}
       #     MAVEN_GPG_PASSPHRASE: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
+      
+      
+      - uses: auto-it/setup-auto@v1
+      - name: Publish package
+        run: auto shipit -v 
+        env:
+          MAVEN_USERNAME: ${{ secrets.OSS_SONATYPE_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.OSS_SONATYPE_PASSWORD }}
