@@ -3,8 +3,8 @@
     ["maven",
     {
       "mavenCommand": "mvn",
-      "mavenOptions": ["-DinteractiveMode=false", "-DskipTests"],
-      "mavenReleaseGoals": ["deploy"],
+      "mavenOptions": ["-DinteractiveMode=false", "-DskipTests", "-P release"],
+      "mavenReleaseGoals": ["deploy"]
     }]
   ],
   "repo": "https://github.com/graph-quilt/graphql-service-adapters",
