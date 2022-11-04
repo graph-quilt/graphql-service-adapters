@@ -1,3 +1,15 @@
+# v2.0.4 (Fri Nov 04 2022)
+
+#### 🐛 Bug Fix
+
+- fix workflow to access GPG passphrase [#18](https://github.com/graph-quilt/graphql-service-adapters/pull/18) ([@bhavinshah7](https://github.com/bhavinshah7))
+
+#### Authors: 1
+
+- Bhavin Shah ([@bhavinshah7](https://github.com/bhavinshah7))
+
+---
+
 # v2.0.3 (Thu Nov 03 2022)
 
 #### 🐛 Bug Fix
