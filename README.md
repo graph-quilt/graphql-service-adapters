@@ -21,7 +21,7 @@ It currently supports following adapters:
 
 Make sure you have the following installed on your machine
 
-* jdk 1.8
+* jdk 11
 * maven
 
 ### Intellij development
