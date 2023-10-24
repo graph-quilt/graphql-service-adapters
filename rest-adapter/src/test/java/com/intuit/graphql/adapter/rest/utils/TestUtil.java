@@ -19,8 +19,7 @@ public class TestUtil {
 
   public static String loadResourceFromFile(String path) {
     try {
-      return Resources
-          .toString(Resources.getResource(path), Charsets.UTF_8);
+      return Resources.toString(Resources.getResource(path), Charsets.UTF_8);
     } catch (IOException e) {
       throw new RuntimeException(e.getMessage(), e.getCause());
     }
@@ -40,7 +39,7 @@ public class TestUtil {
         .build();
   }
 
-  public static GraphQLContext createGraphQLContext( ServerRequest serverRequest) {
+  public static GraphQLContext createGraphQLContext(ServerRequest serverRequest) {
     return GraphQLContext.newContext()
         .of(Context.class, Context.empty())
         .of(ServerRequest.class, serverRequest)
