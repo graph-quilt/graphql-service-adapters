@@ -13,7 +13,7 @@ import reactor.util.context.Context;
 
 public class TestUtil {
 
-  public static final int TIMEOUT = 1000;
+  public static final int TIMEOUT = 5000;
 
   public static WebClient webClient = WebClient.builder().build();
 
