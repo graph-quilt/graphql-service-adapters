@@ -8,7 +8,11 @@ import com.intuit.graphql.adapter.rest.utils.TestUtil
 import org.junit.Rule
 import spock.lang.Specification
 
-import static com.github.tomakehurst.wiremock.client.WireMock.*
+import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
+import static com.github.tomakehurst.wiremock.client.WireMock.any;
+import static com.github.tomakehurst.wiremock.client.WireMock.containing;
+import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
+import static com.github.tomakehurst.wiremock.client.WireMock.urlPathMatching;
 
 class RestAdapterSpec extends Specification {
 
