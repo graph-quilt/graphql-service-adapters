@@ -8,7 +8,6 @@ import org.junit.Test;
 
 public class MapBasedServiceConfigurationTest {
 
-
   @Test
   public void testCreationWithNull() {
     MapBasedServiceConfiguration mapBasedServiceConfiguration = new MapBasedServiceConfiguration(null);

@@ -5,7 +5,6 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.intuit.graphql.adapter.core.ServiceAdapterException;
 import com.intuit.graphql.adapter.core.ServiceAdapterResponse;
 import org.junit.Test;
 
@@ -26,7 +25,7 @@ public class ServiceEvaluatorUtilsTest {
   }
 
   @Test
-  public void toServiceAdapterResponseException(){
+  public void toServiceAdapterResponseException() {
     assertThatThrownBy(
         ()->ServiceEvaluatorUtils.toServiceAdapterResponse("field", "{bad}"))
     .isInstanceOf(JsonParseException.class);
